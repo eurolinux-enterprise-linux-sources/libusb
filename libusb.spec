@@ -1,7 +1,7 @@
 Name: libusb
 Epoch: 1
 Version: 0.1.4
-Release: 1%{?dist}
+Release: 3%{?dist}
 Summary: A library which allows userspace access to USB devices
 Group: System Environment/Libraries
 License: LGPLv2+
@@ -79,6 +79,12 @@ rm -rf %{buildroot}
 /%{_lib}/libusb.a
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:0.1.4-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.1.4-2
+- Mass rebuild 2013-12-27
+
 * Mon Jan 28 2013 Jindrich Novy <jnovy@redhat.com> 0.1.4-1
 - update to 0.1.4 (#904748)
 - drop upstreamed patches
